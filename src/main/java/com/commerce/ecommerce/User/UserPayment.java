@@ -14,7 +14,8 @@ public class UserPayment {
 
     @Id
     @GeneratedValue()
-    private String id;
+    private Long id;
+    // connected to user one to many 
 
     private PaymentType paymentType;
 

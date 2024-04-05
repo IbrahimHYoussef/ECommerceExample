@@ -11,8 +11,10 @@ import jakarta.persistence.Table;
 public class UserAddress {
 
     @Id
-    @GeneratedValue
-    private long id;
+    @GeneratedValue()
+    private Long id;
+
+    // connected to user 
 
     private String addressLine1;
     
